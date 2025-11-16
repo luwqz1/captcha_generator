@@ -1,10 +1,10 @@
 [package]
-name = "cap_gen"
+name = "capthalline"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "cap_gen"
+name = "capthalline"
 crate-type = ["cdylib"]
 
 [profile.release]
