@@ -1,12 +1,9 @@
-# Captcha Generator
-
-## Example
+# Capthalline 
 
 ```python
 from pathlib import Path
 
-from cap_gen import CaptchaGenerator
-
+from capthalline import CaptchaGenerator
 
 emojis = Path("./emojis")
 generator = CaptchaGenerator(emojis, "png")
