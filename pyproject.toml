@@ -1,32 +1,26 @@
 [project]
-name = "cap-gen"
-requires-python = ">=3.9.0"
-authors = [{name="vffuunnyy", email="vffuunnyy@gmail.com"}]
+name = "capthalline"
+requires-python = ">=3.10.0"
+authors = [{name="luwqz1", email="howluwqz1@gmail.com"}]
 dynamic = ["version"]
-description = "🚀 Lightweight Captcha Generator for 🐍 Python"
+description = "ultrafast captcha"
 license = "MIT"
 readme = "README.md"
-keywords = ["captcha", "telegram", "authentication", "auth", "python", "bot", "security", "rust"]
+keywords = ["captcha", "rust", "fast"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
     "Topic :: Internet :: WWW/HTTP"
 ]
-
-[project.urls]
-Homepage = "https://github.com/vffuunnyy/captcha_generator/"
-Documentation = "https://github.com/vffuunnyy/captcha_generator/"
-Repository = "https://github.com/vffuunnyy/captcha_generator.git"
-Issues = "https://github.com/vffuunnyy/captcha_generator/issues"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
